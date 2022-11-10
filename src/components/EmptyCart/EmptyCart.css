@@ -1,0 +1,16 @@
+.empty{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    flex-direction: column;
+}
+.empty .icon{
+    font-size: 7rem;
+    color: gray;
+}
+
+.empty h6{
+    font-size: 3rem;
+    color: gray;
+}

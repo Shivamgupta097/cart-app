@@ -1,0 +1,12 @@
+.cart{
+    display: flex;
+    flex-direction: column;
+    padding: 0 60px;
+    margin-top: 120px;
+}
+
+@media screen and (max-width:720px){
+    .cart{
+        padding: 0 20px;
+    }
+}
