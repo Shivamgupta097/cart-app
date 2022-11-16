@@ -5,11 +5,11 @@ const SingleProduct = ({ product }) => {
   const {cart ,dispatch} = useContext(CartContext);
   return (
     // <div className="single_product"><img src={product.imageUrl} width="100%"/><h2>{product.name}</h2></div>
-    <div className="card shadow">
+    <div className="card shadow single_product ">
       <img
         src={product.imageUrl}
         alt={product.name}
-        className="card-img-top img-fluid"
+        className="card-img-top bg-img"
       />
       <div className="card-body">
         <div className="row mt-2">
